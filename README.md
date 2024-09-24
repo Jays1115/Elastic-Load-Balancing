@@ -7,7 +7,7 @@
 
 <h2>Description</h2>
 Scenario: a travel agency that recently held a promotional event. The event significantly increased web traffic, causing the agency's website to become overloaded and unable to handle the influx of requests, leading to timeouts. Additionally, the agency's EC2 instances, hosted on AWS in an Availability Zone, were affected by severe storms, which resulted in the website being offline for several hours.
-<br/>
+<br/> <br/>
 Solution: To manage traffic surges and maintain website uptime, create an Auto Scaling Group that adjusts the number of EC2 instances based on demand. Set up a Load Balancer to distribute incoming traffic evenly across these instances, and attach the Auto Scaling Group to it for seamless scalability. Implement Load Balancer Health Checks to ensure traffic is only directed to healthy instances, enhancing the reliability of your service.
 
 <h2>Program walk-through:</h2>
